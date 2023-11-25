@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using AnimalShelterApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();

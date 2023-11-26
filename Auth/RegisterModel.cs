@@ -6,6 +6,7 @@ namespace AnimalShelterApi.Auth
 {
   public class RegisterModel
   {
+    public int UserId { get; set; }
     [Required(ErrorMessage = "User Name is required")]
     public string Username { get; set; }
     [EmailAddress]
